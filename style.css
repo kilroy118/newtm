@@ -1,0 +1,58 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.title1 {
+	margin: 30px auto;
+	margin-left: 760px;
+	font-size: 50px;
+	color: blue;
+}
+.title2 {
+	margin: 1px auto;
+	margin-left: 815px;
+	font-size: 30px;
+	color: blue;
+}
+.button {
+	width: 80px;
+	height: 30px;
+	margin: 10px auto;
+	background: green;
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+.button1 {
+	margin-left: 820px;
+}
+.wrapper {
+	width: 100%;
+	height: 780px;
+	display: flex;
+}
+.block {
+	box-sizing: border-box;
+	padding: 10px;
+}
+.block1, .block3 {
+	background: green;
+}
+.block2 {
+	background: blue;
+}
+.title {
+	font-size: 30px;
+}
+p {
+	font-size: 20px;
+}
+.header1, buttons1, blocks1 {
+	background: gold;
+}
+.header2, buttons2, blocks2 {
+	background: yellow;
+}
+.header3, buttons3, blocks3 {
+	background: green;
+}

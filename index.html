@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="main.js"></script>
+</head>
+<body ng-controller="newController as ctrl" class="{{ctrl.bodyStyle.header}}">
+	
+	
+	<div class="title1">My Angular Page</div>
+	<div class="title2">You can change style</div>
+	<button class="button1 button" ng-click="ctrl.addStyle1()">style 1</button>
+	<button class="button2 button" ng-click="ctrl.addStyle2()">style 2</button>
+	<button class="button3 button" ng-click="ctrl.addStyle3()">style 3</button>
+	<div class="wrapper">
+		<div class="block1 block">
+			<span class="title">Column1</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aut dolor at ducimus, iste delectus, recusandae deleniti. Officia rerum molestiae itaque et quis aperiam maxime dolorem fuga corrupti? Voluptate, quidem.</p>
+		</div>
+		<div class="block2 block {{ctrl.blockStyle.blocks}}">
+			<span class="title">Column2</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam commodi, aliquid ipsum quo delectus facilis atque ipsam praesentium, eaque doloremque, sapiente illum numquam molestiae et quis. Delectus earum, labore ratione.</p>
+		</div>
+		<div class="block3 block">
+			<span class="title">Column3</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quia nostrum quae, saepe error repellendus eum a quidem in tenetur voluptate sequi, dolores placeat omnis nihil dolorem iure praesentium animi.</p>
+		</div>
+	</div>
+	
+	
+	
+</body>
+</html>
